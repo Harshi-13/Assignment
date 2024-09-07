@@ -1,0 +1,55 @@
+/* Board.css */
+.board-container {
+  background-color: #e0f7fa; /* Light mint color */
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.board-heading {
+  color: #00796b; /* Darker mint color */
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 45%;
+  background-color: #ffffff; /* White background */
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #b2dfdb; /* Light mint border color */
+}
+
+.column h3 {
+  color: #00796b; /* Darker mint color */
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.task-card {
+  background-color: #b2dfdb; /* Light mint background for tasks */
+  border: 1px solid #00796b; /* Darker mint border color */
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-card h4 {
+  color: #004d40; /* Dark mint color */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.task-card p {
+  color: #004d40; /* Dark mint color */
+  font-family: 'Arial', sans-serif;
+}
+
+.task-card p strong {
+  color: #00796b; /* Darker mint color */
+}

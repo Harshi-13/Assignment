@@ -1,0 +1,32 @@
+.calendar-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar-heading {
+  color: #00796b; /* Darker mint color */
+  margin-bottom: 20px;
+}
+
+.tasks-for-date {
+  margin-top: 20px;
+}
+
+.task-card {
+  background-color: #b2dfdb; /* Light mint background for tasks */
+  border: 1px solid #00796b; /* Darker mint border color */
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-card h4 {
+  color: #004d40; /* Dark mint color */
+}
+
+.task-card p {
+  color: #004d40; /* Dark mint color */
+}
